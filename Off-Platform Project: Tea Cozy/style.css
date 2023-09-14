@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000;
+}
+
+body {
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: #000;
+}
+
+header img {
+    margin-left: 10px;
+    height: 50px;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+
+/* main */
+
+main {
+    padding-top: 69px;
+}
+
+
+/* Mission section */
+
+#mission {
+    border-radius: 5px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*ly9bof*_ga*MTY5NDUzNjA5MC4xNjkyMjQyNjc0*_ga_3LRZM6TM9L*MTY5NDY3OTQ5OC41OS4xLjE2OTQ2Nzk1MDMuNTUuMC4w');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-header {
+    background-color: #000;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.mission-header h2,
+.mission-header h4 {
+    margin: 0;
+}
+
+
+/* Featured */
+#Featured{
+    margin: 0 auto;
+    width: 1000px;
+}
+.featured-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.items img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.item h4 {
+    margin-top: 10px;
+}
+
+/*location*/
+#locations {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*ewaksm*_ga*MTY5NDUzNjA5MC4xNjkyMjQyNjc0*_ga_3LRZM6TM9L*MTY5NDY3NzEzNC41OC4xLjE2OTQ2NzcxNDMuNTEuMC4w');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 600px;
+    width: 1200px;
+}
+
+.our-locations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations {
+    width: 300px;
+    opacity: 1;
+    background-color: #000;
+    border-radius: 5px;
+    display: inline-block;   
+    margin-right: 40px;
+}
+
+.locations:hover {
+    transform: scale(1.1);
+}
+
+#locations h2 {
+    margin-bottom: 45px;
+}
+
+
+/* Footer */
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact h2,
+.contact h5 {
+    margin: 0;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
